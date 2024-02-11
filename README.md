@@ -1,6 +1,6 @@
 # Streamer's Hub
 
-Streamer's Hub is a modern, responsive web application designed for streamers to showcase their latest content from platforms like YouTube and Twitch. It features sections for YouTube Shorts, live Twitch streams, and social media links, making it easier for fans to follow and interact with their favorite content creators.
+This is a is a modern, responsive web application designed for streamers to showcase their latest content from platforms like YouTube and Twitch. It features sections for YouTube Shorts, live Twitch streams, and social media links, making it easier for fans to follow and interact with their favorite content creators.
 
 ## Features
 
