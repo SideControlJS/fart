@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import YouTubeShorts from './components/YouTubeShorts';
@@ -9,15 +9,14 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/youtube" component={YouTubeShorts} />
-        <Route path="/twitch" component={TwitchStream} />
+      <Routes>
+        <Route path="/youtube" element={<YouTubeShorts />} />
+        <Route path="/twitch" element={<TwitchStream />} />
         {/* Add other routes as needed */}
-      </Switch>
+      </Routes>
       <Footer />
     </Router>
   );
 }
 
-export default App;
 

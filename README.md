@@ -26,8 +26,6 @@ Additional technologies and libraries:
 - **Bootstrap 5**: For styling and components.
 - **Font Awesome**: For social media icons and other icons.
 
-## Getting Started
-
 ### Prerequisites
 
 - Node.js
