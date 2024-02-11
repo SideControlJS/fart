@@ -4,6 +4,7 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import fetch from 'node-fetch';
+import path from 'path';
 
 
 
@@ -11,8 +12,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Serve static files from the React app
-const path = require('path');
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(process.cwd(), 'client/build')));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname+'/client/build/index.html'));
