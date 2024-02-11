@@ -1,38 +1,50 @@
-.App {
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* A modern, clean font */
+  background-color: #f0f2f5; /* A light background to keep it fresh */
+  color: #333; /* Dark grey color for text for better readability */
+}
+
+.app-header, .app-footer {
+  padding: 20px;
+  background-color: #20232a; /* Slightly dark background for contrast */
+  color: #61dafb; /* A bright color for header and footer text */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem; /* Large font size for the header title */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-footer p {
+  margin: 0;
+  font-size: 1rem; /* Regular font size for footer text */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.twitch-stream {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.twitch-stream iframe {
+  max-width: 100%; /* Ensure the iframe is responsive */
+  border: none; /* Remove default border */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Additional styles for other components and general layout */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* You can add media queries to adjust the layout on smaller screens */
+@media (max-width: 768px) {
+  .app-header h1, .app-footer p {
+    font-size: 1.5rem;
   }
 }
