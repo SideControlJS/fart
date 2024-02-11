@@ -12,7 +12,7 @@ Streamer's Hub is a modern, responsive web application designed for streamers to
 
 ## Technologies
 
-Streamer's Hub is built using the MERN stack:
+This website is built using the MERN stack:
 
 - **MongoDB**: A document-based open source database.
 - **Express.js**: A web application framework for Node.js.
