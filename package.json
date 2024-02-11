@@ -1,6 +1,7 @@
 {
   "name": "fart",
   "version": "1.0.0",
+  "type": "module",
   "description": "fartis page",
   "main": "server.js",
   "scripts": {
